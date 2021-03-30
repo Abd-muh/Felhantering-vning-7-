@@ -6,6 +6,9 @@ namespace Uppgift_PRO
     {
         static void Main(string[] args)
         {
+		
+		try
+	        {      
 			Console.Write("Mata in start:");
 			int start = int.Parse(Console.ReadLine());
 			Console.Write("Mata in stop:");
@@ -13,8 +16,7 @@ namespace Uppgift_PRO
 			Console.Write("mata in steg:");
 			int steg = int.Parse(Console.ReadLine());
 
-			try
-			{
+			
 
 				for (int i = start; i<= stop; i = i + steg)
                 {
